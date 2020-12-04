@@ -21,93 +21,98 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-sm navbar-dark">
-      <a class="navbar-brand col-2 h7" href="#">Мы продаем все</a>
-      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#button-nav-toogle"
-              aria-controls="button-nav-toogle"
-              aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-        <div class="collapse navbar-collapse" id="button-nav-toogle">
+<header>
+  <nav class="navbar navbar-expand-sm navbar-dark">
+    <a class="navbar-brand col-2 h7" href="#">Мы продаем все</a>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#button-nav-toogle"
+            aria-controls="button-nav-toogle"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="button-nav-toogle">
 
-          <div class="col-2 offset-3">
-            <img src="img/logo.png" alt="logo" class="logo img-fluid">
-          </div>
-        <ul class="navbar-nav nav-first-part mt-2 mt-lg-0 w-100 justify-content-end align-items-center">
-          <include src="component/nav-item.html">{
-            "text": "Логин"
-            }</include>
-          <include src="component/nav-item.html">{
-            "text": "Регистрация"
-            }</include>
-          <include src="component/nav-item.html">{
-            "text": "Лист желаний (0)"
-            }</include>
-
-          <li class="nav-item px-4">
-            <div class="btn">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g id="Iconly/Light/Search">
-                  <g id="Search">
-                    <circle id="Ellipse_739" cx="11.7666" cy="11.7666" r="8.98856" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path id="Line_181" d="M18.0183 18.4851L21.5423 22" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                  </g>
-                </g>
-              </svg>
-            </div>
-          </li>
-        </ul>
+      <div class="col-2 offset-3">
+        <img src="img/logo.png" alt="logo" class="logo img-fluid">
       </div>
-    </nav>
-
-    <!-- втрое меню -->
-    <div class="container">
-      <nav class="nav nav-second-part justify-content-center justify-content-lg-between border-top border-bottom">
-        <include src="component/nav2-item.html">{
-          "text":"Главная",
-          "active":"active"
+      <ul class="navbar-nav nav-first-part mt-2 mt-lg-0 w-100 justify-content-end align-items-center">
+        <include src="component/nav-item.html">{
+          "text": "Логин"
           }
         </include>
-        <include src="component/nav2-item.html">{
-          "text":"Винтаж",
-          "active":""
+        <include src="component/nav-item.html">{
+          "text": "Регистрация"
           }
         </include>
-        <include src="component/nav2-item.html">{
-          "text":"Иператорское",
-          "active":""
-          }
-        </include>
-        <include src="component/nav2-item.html">{
-          "text":"Аксессуары",
-          "active":""
-          }
-        </include>
-        <include src="component/nav2-item.html">{
-          "text":"Блок",
-          "active":""
-          }
-        </include>
-        <include src="component/nav2-item.html">{
-          "text":"Детали продукции",
-          "active":""
-          }
-        </include>
-        <include src="component/nav2-item.html">{
-          "text":"Контакты",
-          "active":""
+        <include src="component/nav-item.html">{
+          "text": "Лист желаний (0)"
           }
         </include>
 
-      </nav>
+        <li class="nav-item px-4">
+          <div class="btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="Iconly/Light/Search">
+                <g id="Search">
+                  <circle id="Ellipse_739" cx="11.7666" cy="11.7666" r="8.98856" stroke="white" stroke-width="1.5"
+                          stroke-linecap="round" stroke-linejoin="round"/>
+                  <path id="Line_181" d="M18.0183 18.4851L21.5423 22" stroke="white" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </li>
+      </ul>
     </div>
-  </header>
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  </nav>
+
+  <!-- втрое меню -->
+  <div class="container">
+    <nav class="nav nav-second-part justify-content-center justify-content-lg-between border-top border-bottom">
+      <include src="component/nav2-item.html">{
+        "text":"Главная",
+        "active":"active"
+        }
+      </include>
+      <include src="component/nav2-item.html">{
+        "text":"Винтаж",
+        "active":""
+        }
+      </include>
+      <include src="component/nav2-item.html">{
+        "text":"Иператорское",
+        "active":""
+        }
+      </include>
+      <include src="component/nav2-item.html">{
+        "text":"Аксессуары",
+        "active":""
+        }
+      </include>
+      <include src="component/nav2-item.html">{
+        "text":"Блок",
+        "active":""
+        }
+      </include>
+      <include src="component/nav2-item.html">{
+        "text":"Детали продукции",
+        "active":""
+        }
+      </include>
+      <include src="component/nav2-item.html">{
+        "text":"Контакты",
+        "active":""
+        }
+      </include>
+
+    </nav>
+  </div>
+</header>
+<!-- Add your site or application content here -->
+<p>Hello world! This is HTML5 Boilerplate.</p>
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>
