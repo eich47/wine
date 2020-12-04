@@ -1,0 +1,29 @@
+//глобал
+.h7 {
+  font-size: 0.75rem;
+}
+
+//навигация
+
+header .logo{
+  height: 68px;
+  width: 123px;
+}
+.navbar-nav.nav-first-part .active,
+.navbar-nav.nav-first-part .nav-item :hover,
+.navbar-nav.nav-first-part .nav-item :active{
+  color: $primary;
+  text-decoration: underline;
+}
+
+
+.nav-second-part .nav-link{
+  color: $white;
+}
+.nav-second-part .active,
+.nav-second-part .nav-link:hover,
+.nav-second-part .nav-link:active{
+  color: $primary;
+  text-decoration: underline;
+}
+
