@@ -229,3 +229,37 @@ header .logo {
     background-color: $primary;
   }
 }
+
+//контакты
+.address .nav-item{
+  position: relative;
+}
+.address .nav-item a{
+  color: $white;
+  &:hover{
+    color: $primary;
+  }
+}
+.address .nav-item::before{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 24px;
+  width: 24px;
+  transform: translate(0, -50%);
+}
+.address .nav-item.phone::before{
+  content: url("/img/contact/Call.svg");
+
+}
+.address .nav-item.email::before{
+  content: url("/img/contact/Message.svg");
+}
+.address .nav-item.city::before{
+  content: url("/img/contact/Location.svg");
+}
+
+.socio img{
+  width: 48px;
+  height: 48px;
+}
