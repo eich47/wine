@@ -31,7 +31,11 @@ header .logo {
 
 //секция эсперимент
 .experiment {
-  margin-top: 180px;
+  margin-top: 50px;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 180px;
+  }
 }
 
 .experiment .more a {
@@ -41,7 +45,13 @@ header .logo {
 }
 
 .experiment .part-1 {
-  font-size: 6rem;
+  font-size: 2.3rem;
+  @include media-breakpoint-up(sm) {
+    font-size: 3.3rem;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 3.3rem;
+  }
 }
 
 .experiment .image-bottle {
