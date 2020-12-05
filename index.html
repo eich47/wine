@@ -156,7 +156,7 @@
         <div class="container">
           <div class="row">
             <!-- текст -->
-            <div class="col-sm-6">
+            <div class="col-sm-6 wine-info">
               <p class="h5">Новые вина</p>
               <p class="text-primary title h1">Merlot</p>
               <p class="sub-title h2">Winehouse Vineyard</p>
@@ -171,7 +171,56 @@
               </div>
             </div>
             <!-- слайдер -->
-            <div class="col-sm-6"></div>
+            <div class="col-sm-6 wine-slider-col px-5 px-sm-3">
+              <div
+                id="wine-slider-id"
+                class="carousel slide wine-slider"
+                data-ride="carousel"
+              >
+                <div class="carousel-inner border-primary" role="listbox">
+                  <div class="carousel-item active">
+                    <div class="wrap position-relative">
+                      <img
+                        class="img-fluid d-block mx-auto"
+                        src="img/slider/slide-1.png"
+                        alt="First slide"
+                      />
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="wrap position-relative">
+                      <img
+                        class="img-fluid d-block mx-auto"
+                        src="img/slider/slide-1.png"
+                        alt="Second slide"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <a
+                  class="carousel-control-prev"
+                  href="#wine-slider-id"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon" aria-hidden="true"
+                    >Пред</span
+                  >
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#wine-slider-id"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span class="carousel-control-next-icon" aria-hidden="true"
+                    >След</span
+                  >
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
