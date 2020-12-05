@@ -1,5 +1,21 @@
+@font-face {
+  font-family:'ChocolateBox';
+  src: url('font/ChocolateBox.eot');
+  src: url('font/ChocolateBox.eot?#iefix') format('embedded-opentype'),
+  url('font/ChocolateBox.woff2') format('woff2'),
+  url('font/ChocolateBox.woff') format('woff'),
+  url('font/ChocolateBox.ttf') format('truetype'),
+  url('font/ChocolateBox.svg#ChocolateBox') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00A3;
+}
+
 $body-bg: #000;
 $body-color: #fff;
 
 $blue: #E2B024;
 $navbar-dark-color: #ffffff;
+
+$font-family-sans-serif: "ChocolateBox", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";

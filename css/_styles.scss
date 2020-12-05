@@ -30,17 +30,20 @@ header .logo {
 }
 
 //секция эсперимент
-.experiment{
+.experiment {
   margin-top: 180px;
 }
-.experiment .more a{
+
+.experiment .more a {
   text-decoration: underline;
   color: $primary;
   text-transform: uppercase;
 }
-.experiment .part-1{
+
+.experiment .part-1 {
   font-size: 6rem;
 }
+
 .experiment .image-bottle {
 
 
@@ -54,7 +57,8 @@ header .logo {
 
   }
 }
-.experiment .image-bottle img{
+
+.experiment .image-bottle img {
   object-fit: cover;
 }
 
