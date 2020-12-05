@@ -212,3 +212,20 @@ header .logo {
   left: 15px;
   top: 0;
 }
+
+
+//отзывы клиентов
+.client-slider img{
+  border: 3px solid $white;
+}
+
+.client-slider .carousel-indicators li{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: $white;
+
+  &.active{
+    background-color: $primary;
+  }
+}

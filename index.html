@@ -314,6 +314,75 @@
           <p class="more text-center mt-5"><a href="">Смотреть еще</a></p>
         </div>
       </section>
+      <!-- секция отзывы клиентов -->
+      <section class="client">
+        <div class="container">
+          <include src="component/section-title.html">
+            { "text": "Отзывы", "text2": "клиентов" }
+          </include>
+
+          <div class="client-slider">
+            <div
+              id="client-slider-id"
+              class="carousel slide pb-5"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#client-slider-id"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#client-slider-id" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <!-- 1 -->
+                <div class="carousel-item active">
+                  <img
+                    class="img-fluid rounded-circle d-block mx-auto"
+                    src="img/client/c1.jpg"
+                    alt="First slide"
+                  />
+                  <div class="col-12 col-md-10 offset-md-1 mt-4">
+                    <h3 class="text-center title font-weight-bold h4">
+                      Dwayne Hernandez
+                    </h3>
+                    <p class="text-center desc mt-3">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Eget lectus pulvinar venenatis volutpat, lacinia sagittis.
+                      Vulputate habitasse vel nisl, id consequat lacus. Et
+                      porttitor vestibulum, blandit quam id. Accumsan lacus, non
+                      tincidunt sed pellentesque facilisi ornare pellentesque
+                      ullamcorpe
+                    </p>
+                  </div>
+                </div>
+                <!-- 2 -->
+                <div class="carousel-item">
+                  <img
+                    class="img-fluid rounded-circle d-block mx-auto"
+                    src="img/client/c2.jpg"
+                    alt="First slide"
+                  />
+                  <div class="col-12 col-md-10 offset-md-1 mt-4">
+                    <h3 class="text-center title font-weight-bold h4">
+                      Eileen Hunt
+                    </h3>
+                    <p class="text-center desc mt-3">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Eget lectus pulvinar venenatis volutpat, lacinia sagittis.
+                      Vulputate habitasse vel nisl, id consequat lacus. Et
+                      porttitor vestibulum, blandit quam id. Accumsan lacus, non
+                      tincidunt sed pellentesque facilisi ornare pellentesque
+                      ullamcorpe
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
     <!-- Add your site or application content here -->
