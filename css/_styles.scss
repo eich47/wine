@@ -72,5 +72,22 @@ header .logo {
   object-fit: cover;
 }
 
+//блок новые вина
+.new-wine{
+  padding-top: 50px;
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 260px;
+  }
+}
+
+.new-wine .sub-title{
+  @extend h3;
+
+  @include media-breakpoint-up(lg) {
+    font-size: 2rem;
+  }
+}
+
 
 
