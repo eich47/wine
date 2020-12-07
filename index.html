@@ -433,7 +433,7 @@
             </div>
             <!-- forma -->
             <div class="col-sm-6 mt-5 mt-sm-0">
-              <form action="" class="feedback">
+              <form action="" class="feedback needs-validation" novalidate>
                 <div class="form-group position-relative p-3">
                   <label for="user-name">Имя</label>
                   <input
@@ -441,7 +441,9 @@
                     name="user-name"
                     id="user-name"
                     class="form-control"
+                    required
                   />
+                  <div class="invalid-feedback">Введите имя</div>
                 </div>
                 <!-- email -->
                 <div class="form-group position-relative p-3">
@@ -451,7 +453,9 @@
                     name="user-email"
                     id="user-email"
                     class="form-control"
+                    required
                   />
+                  <div class="invalid-feedback">Введите электронную почту</div>
                 </div>
                 <!-- телефон -->
                 <div class="form-group position-relative p-3">
@@ -461,7 +465,9 @@
                     name="user-phone"
                     id="user-phone"
                     class="form-control"
+                    required
                   />
+                  <div class="invalid-feedback">Введите телефон</div>
                 </div>
                 <!-- сообщение -->
                 <div class="form-group position-relative p-3">
@@ -470,10 +476,15 @@
                     name="user-message"
                     id="user-message"
                     class="form-control"
-                  />
+                    required
+                  ></textarea>
+                  <div class="invalid-feedback">Введите сообщение</div>
                 </div>
 
                 <button type="submit" class="btn btn-primary">Отправить</button>
+                <span class="user-send-message d-none text-primary mt-3"
+                  >Тест: сообщение отправлено</span
+                >
               </form>
             </div>
           </div>

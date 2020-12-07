@@ -292,3 +292,9 @@ header .logo {
 .feedback textarea{
   border: 0;
 }
+//--стили валидации
+.was-validated .form-control:invalid,
+.form-control.is-invalid{
+  border-width: 1px;
+  border-style: solid;
+}
