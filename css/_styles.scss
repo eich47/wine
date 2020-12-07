@@ -301,3 +301,28 @@ header .logo {
   border-width: 1px;
   border-style: solid;
 }
+
+//меню в футере
+.footer .nav a{
+  padding-left: 0;
+  padding-right: 0;
+  color: $white;
+
+  &:hover{
+    color: $primary;
+  }
+}
+
+.footer .nav-item{
+  width: 100%;
+}
+.footer .address a{
+  padding-left: 16px;
+}
+.footer .socio .nav-item{
+  width: auto;
+}
+.footer .socio img{
+  width: 24px;
+  height: 24px;
+}
