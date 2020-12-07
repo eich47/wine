@@ -263,3 +263,32 @@ header .logo {
   width: 48px;
   height: 48px;
 }
+
+//форма обратной связи
+.feedback .form-group{
+  border: 1px solid $white;
+  margin-bottom: 30px;
+}
+.feedback label{
+  background-color: $body-bg;
+  color: $white;
+  position: absolute;
+  top: -0;
+  left: 15px;
+  transform: translate(0, -50%);
+  margin: 0;
+  display: inline-block;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.feedback input,
+.feedback textarea,
+.feedback input:focus,
+.feedback textarea:focus{
+  background-color: $body-bg;
+  color: white;
+}
+.feedback input,
+.feedback textarea{
+  border: 0;
+}
