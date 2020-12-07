@@ -24,3 +24,4 @@
 // Place any jQuery/helper plugins in here.
 import 'jquery/dist/jquery.slim.min'
 import 'bootstrap/js/dist/carousel'
+import 'bootstrap/js/dist/collapse'

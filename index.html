@@ -21,73 +21,83 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-sm navbar-dark">
-        <a class="navbar-brand col-2 h7" href="#">Мы продаем все</a>
-        <button
-          class="navbar-toggler d-lg-none"
-          type="button"
-          data-toggle="collapse"
-          data-target="#button-nav-toogle"
-          aria-controls="button-nav-toogle"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+      <div class="container">
+        <nav
+          class="navbar navbar-expand-sm navbar-dark nav-top align-items-start"
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="button-nav-toogle">
-          <div class="col-2 offset-3">
+          <a class="navbar-brand col col-sm-auto col-lg-2 h7 pl-0" href="#"
+            >Мы продаем все</a
+          >
+          <div class="col col-sm-auto offset-lg-3">
             <img src="img/logo.png" alt="logo" class="logo img-fluid" />
           </div>
-          <ul
-            class="navbar-nav nav-first-part mt-2 mt-lg-0 w-100 justify-content-end align-items-center"
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-toggle="collapse"
+            data-target="#button-nav-toogle"
+            aria-controls="button-nav-toogle"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            <include src="component/nav-item.html"
-              >{ "text": "Логин" }
-            </include>
-            <include src="component/nav-item.html"
-              >{ "text": "Регистрация" }
-            </include>
-            <include src="component/nav-item.html"
-              >{ "text": "Лист желаний (0)" }
-            </include>
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-            <li class="nav-item px-4">
-              <div class="btn">
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g id="Iconly/Light/Search">
-                    <g id="Search">
-                      <circle
-                        id="Ellipse_739"
-                        cx="11.7666"
-                        cy="11.7666"
-                        r="8.98856"
-                        stroke="white"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        id="Line_181"
-                        d="M18.0183 18.4851L21.5423 22"
-                        stroke="white"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+          <div
+            class="collapse navbar-collapse align-items-start align-items-lg-center"
+            id="button-nav-toogle"
+          >
+            <ul
+              class="navbar-nav nav-first-part mt-2 mt-lg-0 w-100 justify-content-end align-items-center flex-wrap"
+            >
+              <include src="component/nav-item.html"
+                >{ "text": "Логин" }
+              </include>
+              <include src="component/nav-item.html"
+                >{ "text": "Регистрация" }
+              </include>
+              <include src="component/nav-item.html"
+                >{ "text": "Лист желаний (0)" }
+              </include>
+
+              <li class="nav-item pl-4">
+                <div class="btn">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Iconly/Light/Search">
+                      <g id="Search">
+                        <circle
+                          id="Ellipse_739"
+                          cx="11.7666"
+                          cy="11.7666"
+                          r="8.98856"
+                          stroke="white"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          id="Line_181"
+                          d="M18.0183 18.4851L21.5423 22"
+                          stroke="white"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </g>
                     </g>
-                  </g>
-                </svg>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
+                  </svg>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
 
       <!-- втрое меню -->
       <div class="container">
