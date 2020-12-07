@@ -252,6 +252,9 @@ header .logo {
   content: url("/img/contact/Call.svg");
 
 }
+.address .nav-item.email a{
+  word-break: break-word;
+}
 .address .nav-item.email::before{
   content: url("/img/contact/Message.svg");
 }
