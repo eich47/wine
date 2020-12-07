@@ -255,7 +255,10 @@ header .logo {
   }
 }
 .client-slider .carousel-item{
-  height: 410px;
+  height: 444px;
+  @include media-breakpoint-up(md) {
+    height: 410px;
+  }
 }
 
 //контакты
