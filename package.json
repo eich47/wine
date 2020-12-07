@@ -6,13 +6,14 @@
   "license": "",
   "author": "",
   "scripts": {
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --no-minify --no-source-maps --public-url ./ ",
     "dev": "parcel index.html --open",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
+    "parcel-plugin-custom-dist-structure": "^1.1.16",
     "posthtml-include": "^1.6.0",
     "prettier": "2.2.1",
     "sass": "^1.29.0"
@@ -22,5 +23,21 @@
     "ccs": "0.0.1",
     "font": "0.0.4",
     "jquery": "^3.5.1"
+  },
+  "customDistStructure": {
+    "config": {
+      ".js": "js",
+      "images": [
+        ".jpg",
+        ".png",
+        ".svg"
+      ],
+      ".woff" : "fonts",
+      ".woff2" : "fonts",
+      ".ttf" : "fonts",
+      ".eot" : "fonts",
+      ".fileExtension": "folder/in/dist",
+      "folder/in/dist": [ ".file", ".extensions" ]
+    }
   }
 }
